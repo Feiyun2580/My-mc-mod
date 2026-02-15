@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "id": "anvilenchantment",
+  "version": "${version}",
+  "name": "Anvil Enchantment",
+  "description": "允许铁砧跨物品类型附魔 - Allow cross-item-type enchanting on anvils",
+  "authors": [
+    "Example Mod Author"
+  ],
+  "contact": {
+    "homepage": "",
+    "sources": ""
+  },
+  "license": "MIT",
+  "icon": "assets/anvilenchantment/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.example.anvilenchantment.AnvilEnchantmentMod"
+    ]
+  },
+  "mixins": [
+    "anvilenchantment.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.16.9",
+    "fabric-api": "*",
+    "minecraft": "~1.20.1",
+    "java": ">=17"
+  }
+}
